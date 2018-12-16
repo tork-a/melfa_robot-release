@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright (C) 2018, Tokyo Opensource Robotics Kyokai Association -->
+<robot name="rv7fl" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <material name="white">
+    <color rgba="1.0 1.0 1.0 1.0"/>
+  </material>
+
+  <xacro:include filename="$(find melfa_description)/urdf/rv7fl.xacro"/>
+
+  <link name="base_link"/>
+  
+  <xacro:rv7fl parent="base_link">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:rv7fl>
+
+</robot>
