@@ -1,0 +1,12 @@
+Source: ros-kinetic-melfa-robot
+Section: misc
+Priority: extra
+Maintainer: Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/melfa_robot
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-melfa-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-melfa-description, ros-kinetic-melfa-driver, ros-kinetic-rv4fl-moveit-config, ros-kinetic-rv7fl-moveit-config
+Description: The melfa_robot meta package
