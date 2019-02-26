@@ -1,0 +1,12 @@
+Source: ros-kinetic-melfa-driver
+Section: misc
+Priority: extra
+Maintainer: Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-controller-manager, ros-kinetic-diagnostic-updater, ros-kinetic-hardware-interface, ros-kinetic-roscpp, ros-kinetic-roslaunch, ros-kinetic-roslint, ros-kinetic-rostest
+Homepage: http://wiki.ros.org/melfa_driver
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-melfa-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-controller-manager, ros-kinetic-diagnostic-updater, ros-kinetic-hardware-interface, ros-kinetic-joint-state-controller, ros-kinetic-joint-trajectory-controller, ros-kinetic-position-controllers, ros-kinetic-robot-state-publisher, ros-kinetic-roscpp
+Description: The melfa_driver package
